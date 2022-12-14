@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfApp1.OrderCreate_Specialist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="OrderCreate_Specialist" Height="700" Width="850">
+    <Grid>
+        <Button Content="Печать" HorizontalAlignment="Left" Margin="161,558,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="119" Height="28">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.102"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Отменить и вернуться" HorizontalAlignment="Left" Margin="374,556,0,0" VerticalAlignment="Top" Height="32" Click="Button_Click_1"/>
+        <Button Content="Отправить" HorizontalAlignment="Left" Margin="580,558,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="119" Height="28" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.102"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="Материал" HorizontalAlignment="Left" Margin="400,112,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+        <Label Content="Кол-во материала" HorizontalAlignment="Left" Margin="400,157,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+        <Label Content="Цена материала" HorizontalAlignment="Left" Margin="400,204,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+        <Label Content="Дата приема" HorizontalAlignment="Left" Margin="400,253,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+        <Label Content="Дата исполнения" HorizontalAlignment="Left" Margin="400,294,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+        <Label Content="Наименование организации (заказчика)" HorizontalAlignment="Left" Margin="400,343,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+        <Label Content="Стоимость" HorizontalAlignment="Left" Margin="400,393,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+        <Label Content="Общая стоимость" HorizontalAlignment="Left" Margin="400,434,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="661,438,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="22"/>
+
+    </Grid>
+</Window>

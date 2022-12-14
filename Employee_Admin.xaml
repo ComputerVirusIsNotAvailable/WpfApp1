@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp1.Employee_Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Employee_Admin" Height="450" Width="800">
+    <Grid>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="198,385,0,0" VerticalAlignment="Top" Click="Button_Click" Width="74"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="334,385,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Сохранить изменения" HorizontalAlignment="Left" Margin="455,385,0,0" VerticalAlignment="Top"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="630,385,0,0" VerticalAlignment="Top"/>
+        <DataGrid Name="g1" AutoGenerateColumns="False" Margin="10,10,10,136" SelectionUnit="Cell" SelectionMode="Extended">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdEmployee}" Header="IdEmployee" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Должность}" Header="Должность" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding ФИО}" Header="ФИО" Width="*"></DataGridTextColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

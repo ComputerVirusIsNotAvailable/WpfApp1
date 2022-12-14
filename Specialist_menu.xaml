@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.Specialist_menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Specialist_menu" Height="450" Width="400">
+    <Grid>
+        <Label Content="Меню специалиста" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
+        <Button Content="Создание заказа" HorizontalAlignment="Center" Margin="0,163,0,0" VerticalAlignment="Top" Height="54" Width="212" Click="Button_Click_1"/>
+        <Button Content="Назад" HorizontalAlignment="Center" Margin="0,367,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+
+    </Grid>
+</Window>
